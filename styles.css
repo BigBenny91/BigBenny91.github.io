@@ -18,13 +18,35 @@ font-family: 'Finger Paint',sans-serif;
   margin: 75px 160px;
   margin-bottom: 10px;
   padding-top: 65px;
+  padding-bottom: 50px;
   font-size: 1.75rem;
 }
 .nav{
   height: 920px;
+  max-width: 290px;
+  min-width: 290px;
   padding-top: 27px;
-  padding-left: 45px;
   margin-right: 792px;
   margin-left: 157px;
   background-color: black;
+  text-align: center;
+  font-size: 2rem;
   }
+  ul.link {
+    padding-left: 0;
+    list-style-type: none;
+  }
+li {
+  margin-bottom: 150px;
+  text-decoration: underline;
+}
+.article{
+  margin-left: auto;
+  margin-right: auto;
+  width: 920px;
+  }
+h2{
+  float: right;
+  padding-right: 500px;
+  padding-top: 15px;
+}
