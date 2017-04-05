@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Finger+Paint');
+
+body {
+background-image: url(Img/clouds.jpeg);
+background-position: center top;
+background-repeat: no-repeat;
+background-size: cover;
+margin: 0;
+color: #f2f2f2;
+font-family: 'Finger Paint',sans-serif;
+}
+*{
+  outline: 1px dotted lime;
+}
+
+.header {
+  height: 100px;
+  margin: 75px 160px;
+  margin-bottom: 10px;
+  padding-top: 65px;
+  font-size: 1.75rem;
+}
+.nav{
+  height: 920px;
+  padding-top: 27px;
+  padding-left: 45px;
+  margin-right: 792px;
+  margin-left: 157px;
+  background-color: black;
+  }
