@@ -1,26 +1,129 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title> Ben Scott </title>
-  <link rel="stylesheet" href= "styles.css" />
-</head>
 
+    <!-- Basic Page Needs
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+    <title>Ben Scott | The Upcoming Artist.. Not</title>
+    <meta name="description" content="Portfolio for first year student Ben Scott.">
+    <meta name="author" content="Ben Scott">
+
+    <!-- Mobile Specific Metas
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- FONT
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Finger+Paint" rel="stylesheet" type="text/css">
+
+    <!-- CSS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <!-- Scripts
+      –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Favicon
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/png" href="img/favicon.png">
+
+</head>
 <body>
 
-  <div class= "header">
-    <h1> Ben Scott </h1>
+<header class="main_nav grey">
+  <div class="container">
+    <div class="twelve columns">
+      <div class="logo"><a href="#">BEN SCOTT</a></div>
+    </div>
+  </div>
+</header>
+
+<div class="container main">
+  <div class="row">
+    <div class="four columns portfolio">
+      <a class="image-link"href="img/self_portrait.jpg"><img src="img/self_portrait.jpg" /></a>
+    </div>
+    <div class="four columns portfolio">
+      <a class="image-link"href="img/full_bodyplanar.jpg"><img src="img/full_bodyplanar.jpg" /></a>
+    </div>
+    <div class="four columns portfolio">
+      <a class="image-link"href="img/model_planar.jpg"><img src="img/model_planar.jpg" /></a>
+    </div>
   </div>
 
-  <div class="nav">
-    <ul class="link">
-      <li>Home</li>
-      <li>About Me</li>
-      <li>Art Work</li>
-    </ul>
-  </div>
-  <div class="article">
-    <h2> About Me </h2>
+  <div class="row">
+    <div class="four columns portfolio">
+      <a class="image-link"href="img/full_bodyportrait.jpg"><img src="img/full_bodyportrait.jpg" /></a>
+    </div>
+    <div class="four columns portfolio">
+      <a class="image-link"href="img/bw_paint_selfportrait.jpg"><img src="img/bw_paint_selfportrait.jpg" /></a>
+    </div>
+    <div class="four columns portfolio">
+      <a class="image-link"href="img/color_paint_selfportrait.jpg"><img src="img/color_paint_selfportrait.jpg" /></a>
+    </div>
   </div>
 
+  <div class="row" style="margin-bottom: 10%;">
+    <div class="four columns portfolio">
+      <a class="image-link"href="img/full_bodytonal.jpg"><img src="img/full_bodytonal.jpg" /></a>
+    </div>
+    <div class="four columns portfolio">
+      <a class="image-link"href="img/model_tornado.jpg"><img src="img/model_tornado.jpg" /></a>
+    </div>
+    <div class="four columns portfolio">
+      <a class="image-link"href="img/model_mass.jpg"><img src="img/model_mass.jpg" /></a>
+    </div>
+  </div>
+</div><!--Container-->
+
+<div class="row grey">
+  <div class="container">
+    <div class="four columns">
+    <img class="avatar" src="img/ben_fb.jpg" />
+  </div>
+    <div class="eight columns">
+        <h2 class="bio">About Ben Scott</h2>
+        <p class="bio">
+          Welcome to my portfolio site, as you may tell already my name is Ben.
+          I'm 25 and a first year student at Massey I'm studyng CMP (Creative Media
+          Production) which is a facite of different areas of the film industry. I'm
+          hoping to specialization in Audio and Video Production so can be either
+          camera operater, audio/lighting technicion for different venues and TV companies.
+          As am doing this though i am dabbling in a bit Art particularly in drawing shapes of
+          the body though a range of methods in my Drawing the Body class and
+          this is what am showing to you in this portfolio. Hope you like..^-^
+        </p>
+    </div>
+  </div>
+</div><!--Row Grey-->
+
+<footer>
+  <div class="container">
+    <div class="row twelve columns">
+      <ul class="social">
+        <li class="facebook"><a href="#"><i class="fa fa-facebook-square fa-lg"></i></a></li>
+        <li class="twitter"><a href="#"><i class="fa fa-twitter-square fa-lg"></i></a></li>
+        <li class="instagram"><a href="#"><i class="fa fa-instagram fa-lg"></i></a></li>
+        <li class="youtube"><a href="#"><i class="fa fa-youtube-square fa-lg"></i></a></li>
+    </div>
+    <div class="row twelve columns">
+      <p class="copyright">&copy; Ben's Portfolio of Artwork. All rights reserved</p>
+
+    </div>
+  </div>
+</footer>
+
+  <!-- End Document
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script src="scripts/jquery.magnific-popup.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $('.image-link').magnificPopup({type:'image'});
+        }); </script>
 </body>
 </html>
